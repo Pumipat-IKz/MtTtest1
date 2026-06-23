@@ -16,11 +16,11 @@ def bmi_category(bmi):
 # Input from user
 weight = float(input("Enter your weight in kg: "))
 height = float(input("Enter your height in meters: "))
-
+    
 # Calculate BMI
 bmi = calculate_bmi(weight, height)
 category = bmi_category(bmi)
 
 print(f"\nYour BMI is: {bmi:.2f}")
 print(f"Category: {category}")
-print("FAT")
+print("Config_1")
