@@ -23,3 +23,4 @@ category = bmi_category(bmi)
 
 print(f"\nYour BMI is: {bmi:.2f}")
 print(f"Category: {category}")
+print("FAT")
